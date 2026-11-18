@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: 'Black Ops One';
+    src: url('../fonts/Black_Ops_One/BlackOpsOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body {
+    background-image: url('../image/subtle-prism.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 100vh;
+}
+.Container_0 {
+
+    width: 100vw;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+.Container_1 
+{
+    width: 100vw;
+    max-width: 1450px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.titulo div img{
+    max-width   :   80px;
+    max-height  :   80px;
+    border-radius: 30rem;
+   
+}
+div .titulo {
+    left: 5px;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.titulo div div {
+    font-size: 35px;
+     font-family: 'Black Ops One', sans-serif;
+     font-weight: 400;
+     color: white;
+}
+
+.titulo div {
+ display: flex;
+ align-items: center;
+ justify-content: center; margin: 2rem;
+}
+
+.complemento {
+    
+    padding: 0rem 2rem 0rem 2rem;
+    
+}
+
+.complemento::after{
+
+    content: "";
+    width: 1rem;
+
+}
+
+
+.Content{
+display: flex;
+align-items: center;
+justify-content:  center;
+}
+
+
+.Content .painel{
+    margin-top      : 12vh;
+    background-color: rgba(132, 110, 84, 0.876);
+    width           : 35vw;
+    height          : 35vw;
+    border-radius   : 1rem;
+    display         : grid;
+    grid-template-rows      : 33.33% 33.33% 33.33% ;
+    grid-template-columns   : 33.33% 33.33% 33.33%  ;
+    padding                 : 2vh;
+
+
+}
+
+.score-menu{
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+#play{
+
+    width: 35vh;
+    height: 5vh;
+    border-radius: 2rem;
+    margin: 6Vh 0vh 3vh 0vh;
+    border-color: transparent;
+}
+
+.celula {
+    font-size   : 3rem;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight : 600;
+    color       : rgba(0, 0, 0, 0.1);
+    margin      : 0.15rem;
+    border-radius: 0.15rem;
+    border-color: transparent;
+    
+}
+
+
+.rodape{
+    width: 100%;
+    bottom  : 0;
+    right   : 0;
+    left    : 0;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+
+.bt-acesso-1{
+    background-color: radial -gradient(red,orange,yellow,white);
+
+}
